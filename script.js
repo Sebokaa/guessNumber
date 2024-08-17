@@ -9,7 +9,7 @@ const score = document.querySelector('.scoreNums');
 const highScore = document.querySelector('.highScore');
 const overlay = document.querySelector('.overlay');
 
-let scoreNum = 20;
+let scoreNum = 5;
 let highScoreNum = 0;
 
 const isClicked = () => {
@@ -22,7 +22,7 @@ const isClicked = () => {
       document.body.style.backgroundColor = '#60b347';
       message.textContent = 'Correct Number!';
       message.style.fontSize = '25px';
-      scoreNum = 20;
+      scoreNum = 5;
       score.textContent = scoreNum;
       highScore.textContent = highScoreNum;
       input.value = '';
@@ -52,7 +52,7 @@ const isClicked = () => {
 const againClicked = () => {
   document.body.style.backgroundColor = '#222';
   message.textContent = 'Guess Number!';
-  scoreNum = 20;
+  scoreNum = 5;
   score.textContent = scoreNum;
   highScoreNum = 0;
   highScore.textContent = highScoreNum;
