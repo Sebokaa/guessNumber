@@ -137,6 +137,10 @@ color: #eee;
     text-align: center;
   }
 
+  .displayAns{
+    padding: 15px;
+  }
+
   .right h3{
     font-size: 12px;
   }
@@ -157,5 +161,16 @@ color: #eee;
   .left button{
     font-size: 15px;
     padding: 20px 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header button{
+    font-size: 12px;
+    padding: 15px 5px
+  }
+
+  .header h4{
+    font-size: 9px;
   }
 }
