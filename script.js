@@ -56,7 +56,7 @@ const againClicked = () => {
   score.textContent = scoreNum;
   highScoreNum = 0;
   highScore.textContent = highScoreNum;
-  overlay.style.top = '-900px';
+  overlay.style.top = '-1200px';
   answer.textContent = '?';
   randomNum = Math.trunc(Math.random() * 20 + 1);
 };
